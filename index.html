@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nexora AI — Design smarter workflows</title>
+  <meta name="description" content="Nexora AI is a browser-based workspace for building AI workflows, testing prompts, and planning automation.">
+  <meta name="theme-color" content="#090d16">
+  <meta property="og:title" content="Nexora AI — Design smarter workflows">
+  <meta property="og:description" content="Explore AI workflows, run simulations, and calculate the impact of automation in one polished demo workspace.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/og.svg">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Nexora AI home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span></span>
+        <span>Nexora<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Toggle navigation</span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#platform">Platform</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#agent-experience">Agent</a>
+        <a href="#demos">Demos</a>
+        <a href="#faq">Resources</a>
+      </nav>
+      <a class="nav-cta" href="#demos">Open playground <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="shell hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> AI workflow studio</div>
+          <h1>Turn ideas into <em>intelligent</em> actions.</h1>
+          <p>Build, test, and deploy useful AI workflows without adding complexity to your team.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#demos">Start building <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="#platform">Explore platform</a>
+          </div>
+        </div>
+
+        <div class="hero-console" aria-label="AI workflow preview">
+          <div class="console-bar">
+            <div class="window-dots"><span></span><span></span><span></span></div>
+            <span>Lead qualification agent</span>
+            <span class="live-pill"><i></i> Live</span>
+          </div>
+          <div class="console-body">
+            <aside class="console-sidebar">
+              <span class="side-item active" title="Workflow"></span>
+              <span class="side-item" title="Models"></span>
+              <span class="side-item" title="Analytics"></span>
+            </aside>
+            <div class="workflow-canvas">
+              <div class="node node-trigger"><span class="node-icon">✦</span><div><small>TRIGGER</small><strong>New lead</strong></div></div>
+              <div class="connector"><i></i></div>
+              <div class="node node-ai"><span class="node-icon">AI</span><div><small>PROCESS</small><strong>Analyze intent</strong></div><b>98%</b></div>
+              <div class="connector"><i></i></div>
+              <div class="node node-route"><span class="node-icon">↗</span><div><small>ACTION</small><strong>Route to sales</strong></div></div>
+              <div class="canvas-badge">3 nodes</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="Platform benefits">
+      <div class="shell proof-grid">
+        <p>Built for modern teams</p>
+        <div><strong>12×</strong><span>Faster setup</span></div>
+        <div><strong>99.9%</strong><span>Workflow reliability</span></div>
+        <div><strong>40+</strong><span>Native integrations</span></div>
+      </div>
+    </section>
+
+    <section class="section platform" id="platform">
+      <div class="shell">
+        <div class="section-heading">
+          <div><span class="section-kicker">01 — PLATFORM</span><h2>Everything you need to move <em>from prompt to production.</em></h2></div>
+          <p>A focused workspace that keeps your team building, testing, and improving AI systems together.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number">01</span><div class="feature-icon">⌘</div>
+            <h3>Visual workflows</h3><p>Connect triggers, models, tools, and human approvals in a clear canvas.</p>
+            <a href="#demos" aria-label="Try visual workflow demo">Try it <span>→</span></a>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">02</span><div class="feature-icon">◎</div>
+            <h3>Model flexibility</h3><p>Choose the right model for each step, with consistent prompts and fallbacks.</p>
+            <a href="#demos" aria-label="Explore model tools">Explore <span>→</span></a>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">03</span><div class="feature-icon">↗</div>
+            <h3>Operational clarity</h3><p>Trace every run, compare outcomes, and tune the workflow with real results.</p>
+            <a href="#demos" aria-label="View workflow simulation">View demo <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section solutions" id="solutions">
+      <div class="shell solutions-layout">
+        <div class="solutions-copy">
+          <span class="section-kicker">02 — SOLUTIONS</span>
+          <h2>One workspace.<br><em>Many ways to work.</em></h2>
+          <p>Start with a proven pattern, customize it to your process, and measure the result.</p>
+        </div>
+        <div class="solutions-tabs" role="tabpanel">
+          <div class="tab-list" role="tablist" aria-label="Solution categories">
+            <button class="tab active" role="tab" aria-selected="true" aria-controls="panel-sales" id="tab-sales" data-tab="sales">Sales</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="panel-support" id="tab-support" data-tab="support">Support</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="panel-ops" id="tab-ops" data-tab="ops">Operations</button>
+          </div>
+          <div class="solution-panel active" role="tabpanel" id="panel-sales" aria-labelledby="tab-sales">
+            <div class="solution-number">01</div><div><span>SALES AUTOMATION</span><h3>Qualify every lead.<br>Never miss the moment.</h3><p>Research accounts, score intent, personalize outreach, and alert the right rep.</p></div>
+          </div>
+          <div class="solution-panel" role="tabpanel" id="panel-support" aria-labelledby="tab-support" hidden>
+            <div class="solution-number">02</div><div><span>CUSTOMER SUPPORT</span><h3>Resolve faster.<br>Keep every detail.</h3><p>Draft grounded replies, summarize conversations, and escalate complex requests.</p></div>
+          </div>
+          <div class="solution-panel" role="tabpanel" id="panel-ops" aria-labelledby="tab-ops" hidden>
+            <div class="solution-number">03</div><div><span>OPERATIONS</span><h3>Automate routine work.<br>Keep control.</h3><p>Extract documents, validate exceptions, update systems, and create audit trails.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section agent-experience" id="agent-experience">
+      <div class="shell">
+        <div class="section-heading agent-heading">
+          <div>
+            <span class="section-kicker">03 — AI AGENT EXPERIENCE</span>
+            <h2>Meet the agent.<br><em>Watch it work.</em></h2>
+          </div>
+          <div class="simulation-note">
+            <span><i></i> INTERACTIVE SIMULATION</span>
+            <p>Rule-based demo, not a live AI model. Conversations stay in this browser tab.</p>
+          </div>
+        </div>
+
+        <div class="scenario-picker" aria-label="Example customer scenarios">
+          <button type="button" class="scenario-button" data-agent-scenario="product">
+            <span>01</span><div><small>PRODUCT INQUIRY</small><strong>Compare studio lights</strong></div><b>→</b>
+          </button>
+          <button type="button" class="scenario-button" data-agent-scenario="order">
+            <span>02</span><div><small>ORDER STATUS</small><strong>Track sample order NX-1042</strong></div><b>→</b>
+          </button>
+          <button type="button" class="scenario-button" data-agent-scenario="booking">
+            <span>03</span><div><small>BOOKING REQUEST</small><strong>Schedule a workflow review</strong></div><b>→</b>
+          </button>
+        </div>
+
+        <div class="agent-console">
+          <div class="agent-chat-panel">
+            <div class="agent-console-bar">
+              <div><span class="agent-avatar">N</span><div><strong>Nexora Support Agent</strong><small><i></i> Ready to assist</small></div></div>
+              <button type="button" class="reset-agent" id="resetAgent">Reset demo</button>
+            </div>
+            <div class="agent-messages" id="agentMessages" aria-live="polite">
+              <div class="agent-message bot">Hello. Choose an example or type a customer question to see a local rule-based response.</div>
+            </div>
+            <form class="agent-form" id="agentForm">
+              <label class="sr-only" for="agentInput">Customer message</label>
+              <input id="agentInput" name="agentMessage" autocomplete="off" maxlength="180" placeholder="Type a customer question…" required>
+              <button type="submit" aria-label="Send customer message">Send <span>→</span></button>
+            </form>
+          </div>
+
+          <aside class="agent-activity" aria-label="Agent activity">
+            <div class="activity-header"><span>AGENT ACTIVITY</span><small>LOCAL</small></div>
+            <div class="activity-metrics">
+              <div><small>INTENT</small><strong id="agentIntent">Waiting</strong></div>
+              <div><small>WORKFLOW</small><strong id="agentWorkflow">Standby</strong></div>
+            </div>
+            <div class="current-action">
+              <small>CURRENT ACTION</small>
+              <strong id="agentAction"><span></span>Awaiting input</strong>
+            </div>
+            <div class="execution-timeline" aria-label="Execution timeline">
+              <div class="timeline-step" data-step="analyzing"><span>1</span><div><strong>Analyzing request</strong><small>Reading intent</small></div></div>
+              <div class="timeline-step" data-step="workflow"><span>2</span><div><strong>Selecting workflow</strong><small>Matching scenario</small></div></div>
+              <div class="timeline-step" data-step="response"><span>3</span><div><strong>Preparing response</strong><small>Checking sample data</small></div></div>
+              <div class="timeline-step" data-step="completed"><span>4</span><div><strong>Completed</strong><small>Ready for next message</small></div></div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="agent-real-connect">
+          <span>CONNECTING A REAL AGENT</span>
+          <p>A production version would require an approved AI provider, secure conversation storage, authenticated order and booking systems, guardrails, and human handoff routing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section demos" id="demos">
+      <div class="shell">
+        <div class="section-heading demo-heading">
+          <div><span class="section-kicker">04 — LIVE DEMOS</span><h2>See the system <em>think.</em></h2></div>
+          <p>Interactive previews run locally in your browser. No message is sent to an external service.</p>
+        </div>
+
+        <div class="demo-grid">
+          <article class="demo-card chatbot-card">
+            <div class="demo-header"><div><span class="demo-icon">✦</span><h3>AI assistant</h3></div><span class="demo-status">LOCAL</span></div>
+            <div class="chat-messages" id="chatMessages" aria-live="polite">
+              <div class="message bot">Hi, I’m Nexora. Ask me how a workflow can qualify leads, handle support, or process documents.</div>
+            </div>
+            <div class="prompt-row" aria-label="Suggested prompts">
+              <button type="button" data-prompt="How can I qualify leads?">Qualify leads</button>
+              <button type="button" data-prompt="How does support automation work?">Support automation</button>
+            </div>
+            <form class="chat-form" id="chatForm">
+              <label class="sr-only" for="chatInput">Ask the assistant</label>
+              <input id="chatInput" name="message" autocomplete="off" placeholder="Ask about a workflow…" required maxlength="180">
+              <button type="submit" aria-label="Send message">↑</button>
+            </form>
+          </article>
+
+          <article class="demo-card workflow-card">
+            <div class="demo-header"><div><span class="demo-icon">⌘</span><h3>Workflow preset</h3></div></div>
+            <label for="workflowPreset">Choose a process</label>
+            <select id="workflowPreset">
+              <option value="lead">Lead qualification</option>
+              <option value="support">Support triage</option>
+              <option value="invoice">Invoice extraction</option>
+            </select>
+            <div class="preset-steps" id="presetSteps"></div>
+            <button class="button button-primary full-width" id="runWorkflow" type="button">Run simulation <span>→</span></button>
+            <p class="demo-result" id="workflowResult" aria-live="polite">Ready to simulate locally.</p>
+          </article>
+
+          <article class="demo-card calculator-card">
+            <div class="demo-header"><div><span class="demo-icon">↗</span><h3>Impact calculator</h3></div></div>
+            <label for="tasksPerMonth">Monthly tasks <output id="tasksOutput">2,000</output></label>
+            <input class="range" id="tasksPerMonth" type="range" min="100" max="10000" step="100" value="2000">
+            <label for="minutesPerTask">Minutes per task <output id="minutesOutput">15</output></label>
+            <input class="range" id="minutesPerTask" type="range" min="1" max="60" step="1" value="15">
+            <div class="calculator-result">
+              <div><span>Time saved / month</span><strong id="hoursSaved">375 hrs</strong></div>
+              <div><span>Estimated cost saved</span><strong id="costSaved">$9,375</strong></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="shell faq-layout">
+        <div><span class="section-kicker">05 — FAQ</span><h2>Questions,<br><em>answered.</em></h2></div>
+        <div class="faq-list">
+          <details><summary>Can I use Nexora with existing tools?<span>+</span></summary><p>This static concept demonstrates workflow patterns; the production integration layer would be configured by the deploying organization.</p></details>
+          <details><summary>Is the demo connected to a live AI model?<span>+</span></summary><p>No. All chatbot replies and simulations are deterministic local examples, so they work without API keys and never pretend to submit data.</p></details>
+          <details><summary>Can this be deployed to GitHub Pages?<span>+</span></summary><p>Yes. The site uses relative paths and no server-side code, so it can be hosted directly from a repository Pages branch or folder.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="shell cta-inner">
+        <div><span class="section-kicker">START HERE</span><h2>Build your next workflow.</h2></div>
+        <a class="button button-light" href="#demos">Try the playground <span>→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-grid">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark"><span></span><span></span></span><span>Nexora<span class="brand-dot">.</span></span></a>
+      <p>AI workflows for modern teams.</p>
+      <nav aria-label="Footer navigation"><a href="#platform">Platform</a><a href="#solutions">Solutions</a><a href="#demos">Demos</a><a href="#faq">FAQ</a></nav>
+      <small>© <span id="year"></span> Nexora AI. Concept experience.</small>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
